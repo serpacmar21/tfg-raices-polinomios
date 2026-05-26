@@ -1,4 +1,4 @@
-# Métodos para aproximar raíces de polinomios - Implementación en R
+# Métodos para aproximar raíces de polinomios 
 
 Este repositorio contiene el código fuente y los algoritmos desarrollados para el **Trabajo Fin de Grado (TFG) en Estadística** de la Universidad de Sevilla (Curso 2025-2026).
 
@@ -8,15 +8,15 @@ Este repositorio contiene el código fuente y los algoritmos desarrollados para 
 
 ---
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
-El objetivo principal de este trabajo es el estudio, desarrollo e implementación computacional de diversos métodos numéricos y algebraicos para la separación, acotación y aproximación de raíces (tanto reales como complejas) en ecuaciones polinómicas. 
+El objetivo principal de este trabajo es el estudio, desarrollo e implementación computacional de diversos métodos numéricos y algebraicos para la separación, acotación y aproximación de raíces en ecuaciones polinómicas. 
 
-Toda la base teórica se consolida en este repositorio mediante scripts optimizados en el lenguaje de programación **R**, permitiendo el análisis práctico completo de polinomios de forma rigurosa y eficiente.
+Toda la base teórica se consolida en este repositorio mediante scripts en el lenguaje de programación **R**, permitiendo el análisis práctico completo de polinomios de forma rigurosa y eficiente.
 
 ---
 
-## 🛠️ Métodos Implementados
+## Métodos Implementados
 
 El script principal incluye las funciones programadas desde cero para los siguientes métodos estudiados en la memoria:
 
@@ -29,22 +29,21 @@ El script principal incluye las funciones programadas desde cero para los siguie
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
-* `codigo_TFG_SergioPacheco.R`: Script principal en R que contiene todas las funciones de los métodos descritos, así como la resolución y análisis práctico del polinomio de estudio de grado 5:  
-  $$P(x) = x^5 - x^4 - 3x^3 + 2x + 4$$
+* `codigo_TFG_SergioPacheco.R`: Script principal en R que contiene todas las funciones de los métodos descritos, así como la resolución y análisis práctico del polinomio de estudio.
 * `README.md`: Este archivo con las instrucciones de uso y guía de ejecución.
 
 ---
 
-## 🚀 Requisitos e Instalación
+## Requisitos e Instalación
 
 Para ejecutar este código de forma local, es necesario disponer de:
-1. **R** (versión 4.0 o superior recomendada).
-2. **RStudio** como entorno de desarrollo integrado (IDE).
+1. **R**.
+2. **RStudio**.
 
 ### Dependencias
-El script utiliza el paquete oficial `polynom` de CRAN para la gestión avanzada y manipulación de estructuras polinómicas en R (fundamental para el cálculo algebraico de la secuencia de Sturm). Puedes instalarlo ejecutando en la consola de RStudio:
+El script utiliza el paquete oficial `polynom` para la gestión avanzada y manipulación de estructuras polinómicas en R. Puedes instalarlo ejecutando en la consola de RStudio:
 
 ```R
 install.packages("polynom")
