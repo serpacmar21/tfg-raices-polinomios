@@ -23,9 +23,9 @@ El script principal incluye las funciones programadas desde cero para los siguie
 1. **Regla de los signos de Descartes:** Estimación del número máximo de raíces reales positivas y negativas analizando las variaciones de signo de los coeficientes.
 2. **Método de McLaurin:** Cálculo sistemático de cotas superiores e inferiores para el módulo de todas las raíces (reales y complejas).
 3. **Algoritmo de Horner y Deflación:** Evaluación eficiente de polinomios y reducción de grado (regla de Ruffini) tras localizar una raíz exacta.
-4. **Método de Sturm:** Construcción de la secuencia de Sturm mediante divisiones euclidianas sucesivas y separación exacta de raíces reales irracionales en intervalos disjuntos.
-5. **Método de Newton-Raphson:** Aproximación numérica de alta precisión para raíces reales a partir de los intervalos obtenidos por Sturm.
-6. **Método de Bairstow:** Resolución de sistemas no lineales mediante un esquema iterativo de Newton 2D para extraer factores cuadráticos de la forma $x^2 - ux - v$, aislando con éxito raíces complejas conjugadas.
+4. **Método de Sturm:** Construcción de la secuencia de Sturm mediante divisiones sucesivas y separación exacta de raíces reales irracionales en intervalos disjuntos.
+5. **Método de Newton:** Aproximación numérica de alta precisión para raíces reales a partir de los intervalos obtenidos por Sturm.
+6. **Método de Bairstow:** Resolución de sistemas no lineales mediante un esquema iterativo de Newton para extraer factores cuadráticos de la forma $x^2 - ux - v$, aislando raíces complejas conjugadas.
 
 ---
 
